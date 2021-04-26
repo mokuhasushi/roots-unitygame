@@ -13,4 +13,7 @@ public class MainMenu : MonoBehaviour
     {
         helpScreen.SetActive(false);
     }
+    void Start()
+    {
+    }
 }

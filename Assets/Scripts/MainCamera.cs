@@ -43,6 +43,11 @@ public class MainCamera : MonoBehaviour
         audioSource.mute = mute;
         depth = tree.GetDepth();
         MoveCamera();
+        if (Input.GetKeyDown(KeyCode.M))
+            if (mute)
+                UnMute();
+            else
+                Mute();
     }
 
     void MoveCamera() 
@@ -104,14 +109,14 @@ public class MainCamera : MonoBehaviour
     }
     public void Mute()
     {
-        // mute = true;
+        mute = true;
         AudioListener.volume = 0;
         muteButton.SetActive(false);
         unMuteButton.SetActive(true);
     }
     public void UnMute()
     {
-        // mute = false;
+        mute = false;
         AudioListener.volume = 1;
         muteButton.SetActive(true);
         unMuteButton.SetActive(false);

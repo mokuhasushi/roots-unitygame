@@ -8,7 +8,7 @@ public class Water : MonoBehaviour
     [SerializeField] Sprite[] waterSprites;
     [SerializeField] AudioClip[] waterClips;
     int spriteIndex;
-    int waterStep = 100;
+    int waterStep = 105;
 
     void Start()
     {

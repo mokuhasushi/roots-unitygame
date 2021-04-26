@@ -606,7 +606,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5bb29264b79f4f468af3b5d8fbe78c87, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4613b132d3b491357ab77f4c1d62e1e1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.898
   m_Pitch: 1
@@ -2112,32 +2112,32 @@ PrefabInstance:
     - target: {fileID: 2000949092433764720, guid: 2da499c6af551a4278ceee4710942038,
         type: 3}
       propertyPath: waterThresholds.Array.data[0]
-      value: 2500
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 2000949092433764720, guid: 2da499c6af551a4278ceee4710942038,
         type: 3}
       propertyPath: waterThresholds.Array.data[1]
-      value: 5000
+      value: 6250
       objectReference: {fileID: 0}
     - target: {fileID: 2000949092433764720, guid: 2da499c6af551a4278ceee4710942038,
         type: 3}
       propertyPath: waterThresholds.Array.data[2]
-      value: 10000
+      value: 12500
       objectReference: {fileID: 0}
     - target: {fileID: 2000949092433764720, guid: 2da499c6af551a4278ceee4710942038,
         type: 3}
       propertyPath: waterThresholds.Array.data[3]
-      value: 20000
+      value: 25000
       objectReference: {fileID: 0}
     - target: {fileID: 2000949092433764720, guid: 2da499c6af551a4278ceee4710942038,
         type: 3}
       propertyPath: waterThresholds.Array.data[4]
-      value: 40000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 2000949092433764720, guid: 2da499c6af551a4278ceee4710942038,
         type: 3}
       propertyPath: waterThresholds.Array.data[5]
-      value: 80000
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 2000949092433764721, guid: 2da499c6af551a4278ceee4710942038,
         type: 3}
