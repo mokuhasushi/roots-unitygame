@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3757a50c48bbe4399be74ba88b5c3c63, type: 3}
+  m_Name: OE
+  m_EditorClassIdentifier: 
+  leftChildPrefab: {fileID: 3327150601627940231, guid: 9a2449ccfa1e9f5758ac2a342bbd9bba,
+    type: 3}
+  centerChildPrefab: {fileID: 4337015569493708606, guid: aa25bf771ac2df6708085fd75c98fec9,
+    type: 3}
+  rightChildPrefab: {fileID: 7730550218932408916, guid: 52f975e432dbfffdb9d8366cef069020,
+    type: 3}
+  growingSprites:
+  - {fileID: 7321409691958295163, guid: f785af3b003c0327ab61194b809d3d75, type: 3}
+  - {fileID: -5508273643461425862, guid: f785af3b003c0327ab61194b809d3d75, type: 3}
+  - {fileID: 7254010466526064332, guid: f785af3b003c0327ab61194b809d3d75, type: 3}
+  - {fileID: 888472616323483866, guid: f785af3b003c0327ab61194b809d3d75, type: 3}
+  direction: 2
+  growingSpritesChildEO: []
+  growingSpritesChildNS: []
+  growingSpritesChildOE: []
+  fullGrowthSprite: {fileID: -186550239943543731, guid: f785af3b003c0327ab61194b809d3d75,
+    type: 3}
